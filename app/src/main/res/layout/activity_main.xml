@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.usuariolaura.prova1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="Aluno"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disciplinas" />
+
+    <CheckBox
+        android:id="@+id/chkTeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teste de Software" />
+
+    <CheckBox
+        android:id="@+id/chkDesenvolvimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento Comercial" />
+
+    <CheckBox
+        android:id="@+id/chkDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design" />
+
+    <CheckBox
+        android:id="@+id/chkMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desenvolvimento Mobile" />
+
+    <CheckBox
+        android:id="@+id/chkSeguranca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Segurança da Informação" />
+
+    <CheckBox
+        android:id="@+id/chkEmpreendedorismo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empreendedorismo" />
+
+    <CheckBox
+        android:id="@+id/chkDireito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direito e Ética Aplicado a Informática" />
+
+    <Button
+        android:id="@+id/btMatricular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Matricular" />
+
+</LinearLayout>
